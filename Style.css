@@ -16,10 +16,10 @@ body {
   
   .box {
     background-color: #040404;
-    color: #bfff00;
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
+    color: yellow;
   }
   
     .wrapper {
