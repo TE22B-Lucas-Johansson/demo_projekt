@@ -1,0 +1,165 @@
+.bakgrund{
+    background-color: pink;
+}
+
+
+
+.rubrik{
+    border: 2px solid rgb(254, 254, 254);
+    text-align: center;
+    border-radius: 100%;
+    padding: 15px;
+    width: 40%;
+    background-color: rgb(234, 255, 0);
+    font-size: 50px;
+}
+
+.body{
+    display: grid;
+    grid-gap: 330px;
+    height: 350px;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr) minmax(200px,2fr));
+}
+
+.mat{
+    background-color: pink;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    width: 600px;
+}
+
+.bild{
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: yellow;
+    background-image: url("img/Pasta_carbonara.jpg");
+}
+
+.info{
+    display: grid;
+    grid-gap: 250px;
+    height: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr) minmax(200px,2fr));
+}
+
+.ingrediens{
+    display: grid;
+    border:1px solid pink;
+    grid-template-columns: repeat(auto-fill, minmax(200px,2fr) minmax(300px,3fr));
+    border: white solid 4px;
+    height: 800px;
+    width: 426px;
+    grid-gap: 1px;
+    background-color: #ffffff;  
+}
+
+
+.recept{
+    border-radius: 10px;
+    font-size: 150%;
+    width: 600px;
+    height: 350px;
+    background-color: pink;
+    border: 5px rgb(255, 255, 255) solid;
+}
+
+.box1{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0); 
+    width: 185px;  
+    border: black solid 1px;
+}
+
+.box2{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px;
+    border: black solid 1px;   
+}
+.box3{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px;   
+    border: black solid 1px;
+    background-image: url("img/arla-smör.jpg");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box4{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px;  
+    border: black solid 1px; 
+}
+
+.box5{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px;  
+    border: black solid 1px; 
+}
+
+.box6{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px;  
+    border: black solid 1px; 
+}
+
+.box7{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px;  
+    border: black solid 1px; 
+}
+
+.box8{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px; 
+    border: black solid 1px;  
+}
+
+.box9{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    width: 185px;  
+    border: black solid 1px; 
+}
+
+.text{
+    font-size: 250%;
+}
